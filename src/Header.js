@@ -1,10 +1,21 @@
+import SearchIcon from '@material-ui/icons/Search'
 import React from 'react'
 import './Header.css'
 
 function Header() {
     return (
         <div className="header">
-            <h1>This is the header</h1>
+            <div className="header__left">
+                <img src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="LinkedIn" />
+                <div className="header__search">
+                    <SearchIcon />
+                    <input type="text" name="" id="" />
+                </div>
+            </div>
+
+            <div className="header__right">
+
+            </div>
         </div>
     )
 }
