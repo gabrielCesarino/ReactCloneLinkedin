@@ -78,3 +78,29 @@
     margin-top: 10px;
 }
 
+.sidebar__bottom > p {
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.sidebar__recentItem {
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.sidebar__recentItem:hover{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+.sidebar__hash {
+    margin-right: 10px;
+    margin-left: 5px;
+}
